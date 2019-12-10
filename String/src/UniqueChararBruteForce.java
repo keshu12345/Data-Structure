@@ -21,13 +21,13 @@ public class UniqueChararBruteForce {
 		// TODO Auto-generated method stub
 		 UniqueChararBruteForce obj=new  UniqueChararBruteForce();
 		 
-		 String input="Welcome to unique String ";
+		 String input="Welcome to Keshav Rajput ";
 				 
 				 if(obj.uniqueCharacterString(input)) {
 					 System.out.println("The String : "+  input + " has all unique characters");
 				 }
 				 else {
-					 System.out.println("This is String"+input+"has a duplicate characters");
+					 System.out.println("This is String "+input+"has a duplicate characters");
 				 }
 
 	}
