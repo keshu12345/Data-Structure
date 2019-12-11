@@ -4,7 +4,8 @@ public class CntVowConsUsingCapticalLetterString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String x="KESHAV'S KATALYST TECHNOLOGY";
+		String x="keshav's katalyst technology";
+		x=x.toUpperCase();
 		char []y=x.toCharArray();
 		int size=y.length;
 		int volCnt=0;
