@@ -16,14 +16,13 @@ public class StringMapPutGet {
 		while(i!=size) {
 			if(map.containsKey(y[i])==false) {
 				map.put(y[i], 1);
-				i++;
-			}
+				}
 			else {
 				int oldVal=map.get(y[i]);
 				int newVal=oldVal+1;
 				map.put(y[i], newVal);
-				i++;
 			}
+			i++;
 		}
 		
 		Set<Map.Entry<Character,Integer>>hmap=map.entrySet();
